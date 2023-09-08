@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\GadgetsOnline",
+    "\\GadgetsOnline\\GadgetsOnline",
+    "\\GadgetsOnline\\GadgetsOnline\\Controllers"
   ],
+  "SelectedNode": "\\GadgetsOnline\\GadgetsOnline\\Web.config",
   "PreviewInSolutionExplorer": false
 }

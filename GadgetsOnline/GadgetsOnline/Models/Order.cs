@@ -6,7 +6,6 @@ using System.Web.Mvc;
 namespace GadgetsOnline.Models
 {
 
-    [Bind(Exclude = "OrderId")]
     public class Order
     {
         [ScaffoldColumn(false)]

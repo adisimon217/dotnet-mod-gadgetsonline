@@ -15,6 +15,7 @@ namespace GadgetsOnline.Controllers
         {            
             inventory = new Inventory();
             var products = inventory.GetBestSellers(6);
+            System.Diagnostics.Trace.TraceInformation("[{0}]: Home Controller Index returned", DateTime.UtcNow.ToString());
             return View(products);
         }
 
